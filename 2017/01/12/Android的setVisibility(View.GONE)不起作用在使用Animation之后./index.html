@@ -94,7 +94,7 @@
 实验证明只要在setVisibility之前设置View的mCurrentAnimation为null就可以，因此调用setAnimation(null)">
 <meta property="og:image" content="http://images0.cnblogs.com/blog2015/429692/201508/121619065823560.png">
 <meta property="og:image" content="http://images0.cnblogs.com/blog2015/429692/201508/141814392074331.png">
-<meta property="og:updated_time" content="2017-02-06T11:53:39.683Z">
+<meta property="og:updated_time" content="2017-02-06T12:08:33.140Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android的setVisibility(View.GONE)不起作用在使用Animation之后.">
 <meta name="twitter:description" content="出现这种情况很可能是因为设置了animation，并且调用了setFillAfter(true)，这就会导致setVisibility无效，只需要调用一下clearAnimation()方法或者去掉setFillAfter(true)语句即可。
@@ -326,6 +326,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/android/" itemprop="url" rel="index">
+                    <span itemprop="name">android</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -468,6 +490,13 @@
             </div>
           
 
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
           
 
           
