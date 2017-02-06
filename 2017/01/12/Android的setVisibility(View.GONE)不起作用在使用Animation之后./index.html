@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="android," />
 
 
 
@@ -94,7 +94,7 @@
 实验证明只要在setVisibility之前设置View的mCurrentAnimation为null就可以，因此调用setAnimation(null)">
 <meta property="og:image" content="http://images0.cnblogs.com/blog2015/429692/201508/121619065823560.png">
 <meta property="og:image" content="http://images0.cnblogs.com/blog2015/429692/201508/141814392074331.png">
-<meta property="og:updated_time" content="2017-02-06T10:56:29.809Z">
+<meta property="og:updated_time" content="2017-02-06T11:53:39.683Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Android的setVisibility(View.GONE)不起作用在使用Animation之后.">
 <meta name="twitter:description" content="出现这种情况很可能是因为设置了animation，并且调用了setFillAfter(true)，这就会导致setVisibility无效，只需要调用一下clearAnimation()方法或者去掉setFillAfter(true)语句即可。
@@ -382,6 +382,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/android/" rel="tag"># android</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
@@ -464,6 +470,13 @@
 
           
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
