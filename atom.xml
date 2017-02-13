@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-02-06T12:08:30.460Z</updated>
+  <updated>2017-02-13T11:58:45.885Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Session &#39;app&#39;- Error Launching activity</title>
+    <link href="http://yoursite.com/2017/02/13/Session%20&#39;app&#39;-%20Error%20Launching%20activity/"/>
+    <id>http://yoursite.com/2017/02/13/Session &#39;app&#39;- Error Launching activity/</id>
+    <published>2017-02-13T11:58:43.000Z</published>
+    <updated>2017-02-13T11:58:45.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>更新Android studio2.0以后，运行程序会出现Session ‘app’: Error Launching activity错误。</p>
+<p>在控制台的输出日志是：<br><img src="http://img.blog.csdn.net/20160517113445541" alt="这里写图片描述"><br>解决办法：<br>在setting里面找到instant run 然后将instant run设置为disabled<br>.如图所示：<br><img src="http://img.blog.csdn.net/20160517113547776" alt="这里写图片描述"><br>参考文档：</p>
+<blockquote>
+<p><a href="http://stackoverflow.com/questions/36530648/session-app-error-launching-activity" target="_blank" rel="external">http://stackoverflow.com/questions/36530648/session-app-error-launching-activity</a></p>
+</blockquote>
+<p>关于Instant run的介绍可以 参考文章：</p>
+<blockquote>
+<p><a href="http://www.open-open.com/news/view/c0aa96" target="_blank" rel="external">http://www.open-open.com/news/view/c0aa96</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;更新Android studio2.0以后，运行程序会出现Session ‘app’: Error Launching activity错误。&lt;/p&gt;
+&lt;p&gt;在控制台的输出日志是：&lt;br&gt;&lt;img src=&quot;http://img.blog.csdn.net/20160517
+    
+    </summary>
+    
+      <category term="android" scheme="http://yoursite.com/categories/android/"/>
+    
+    
+      <category term="android" scheme="http://yoursite.com/tags/android/"/>
+    
+  </entry>
   
   <entry>
     <title>Monkey、MonkeyRunner自动化测试文档</title>
